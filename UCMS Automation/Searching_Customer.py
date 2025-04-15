@@ -379,4 +379,4 @@ click_apply_button()
 time.sleep(1)
 click_customer_module()
 
-time.sleep(5)
+time.sleep(3)
