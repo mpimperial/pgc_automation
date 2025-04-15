@@ -207,11 +207,21 @@ time.sleep(1)
 click_customer_module()
 
 # Search using SUKI Card No. and Customer ID No.
-
-wait = WebDriverWait(driver, 10)
 driver.find_element(By.XPATH, "//input[@placeholder='SUKI Card No.']").send_keys("qwerty")
 driver.find_element(By.XPATH, "//input[@placeholder='Customer ID No.']").send_keys("zzz0425144491916")
 click_apply_button()
 time.sleep(1)
 click_customer_module()
+
+driver.find_element(By.XPATH, "//input[@placeholder='First Name']").send_keys("marwin")
+driver.find_element(By.XPATH, "//input[@placeholder='Last Name']").send_keys("imperial")
+wait = WebDriverWait(driver, 10)
+date_of_birth = wait.until(
+    EC.element_to_be_clickable((By.XPATH, "//input[@placeholder='Date Of Birth']"))
+)
+date_of_birth.send_keys("10/17/2000")
+click_apply_button()
+time.sleep(1)
+click_customer_module()
+
 time.sleep(5)
