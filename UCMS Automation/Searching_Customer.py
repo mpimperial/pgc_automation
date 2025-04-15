@@ -213,6 +213,7 @@ click_apply_button()
 time.sleep(1)
 click_customer_module()
 
+# Search using First name, Last name, Date of birth
 driver.find_element(By.XPATH, "//input[@placeholder='First Name']").send_keys("marwin")
 driver.find_element(By.XPATH, "//input[@placeholder='Last Name']").send_keys("imperial")
 wait = WebDriverWait(driver, 10)
