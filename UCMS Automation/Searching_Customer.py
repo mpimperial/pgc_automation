@@ -225,9 +225,156 @@ click_apply_button()
 time.sleep(1)
 click_customer_module()
 
+# Search using First name, Last name, SUKI Card No.
 driver.find_element(By.XPATH, "//input[@placeholder='First Name']").send_keys("marwin")
 driver.find_element(By.XPATH, "//input[@placeholder='Last Name']").send_keys("imperial")
 driver.find_element(By.XPATH, "//input[@placeholder='SUKI Card No.']").send_keys("qwerty")
+click_apply_button()
+time.sleep(1)
+click_customer_module()
+
+# Search using First name, Last name, Customer ID No.
+driver.find_element(By.XPATH, "//input[@placeholder='First Name']").send_keys("marwin")
+driver.find_element(By.XPATH, "//input[@placeholder='Last Name']").send_keys("imperial")
+driver.find_element(By.XPATH, "//input[@placeholder='Customer ID No.']").send_keys("zzz0425144491916")
+click_apply_button()
+time.sleep(1)
+click_customer_module()
+
+# Search using Last name, Date of birth and SUKI Card No.
+driver.find_element(By.XPATH, "//input[@placeholder='Last Name']").send_keys("imperial")
+wait = WebDriverWait(driver, 10)
+date_of_birth = wait.until(
+    EC.element_to_be_clickable((By.XPATH, "//input[@placeholder='Date Of Birth']"))
+)
+date_of_birth.send_keys("10/17/2000")
+driver.find_element(By.XPATH, "//input[@placeholder='SUKI Card No.']").send_keys("qwerty")
+click_apply_button()
+time.sleep(1)
+click_customer_module()
+
+# Search using Last name, Date of birth and Customer ID No.
+driver.find_element(By.XPATH, "//input[@placeholder='Last Name']").send_keys("imperial")
+wait = WebDriverWait(driver, 10)
+date_of_birth = wait.until(
+    EC.element_to_be_clickable((By.XPATH, "//input[@placeholder='Date Of Birth']"))
+)
+date_of_birth.send_keys("10/17/2000")
+driver.find_element(By.XPATH, "//input[@placeholder='Customer ID No.']").send_keys("zzz0425144491916")
+click_apply_button()
+time.sleep(1)
+click_customer_module()
+
+# Search using Date of birth and SUKI Card No. and Customer ID No.
+wait = WebDriverWait(driver, 10)
+date_of_birth = wait.until(
+    EC.element_to_be_clickable((By.XPATH, "//input[@placeholder='Date Of Birth']"))
+)
+date_of_birth.send_keys("10/17/2000")
+driver.find_element(By.XPATH, "//input[@placeholder='SUKI Card No.']").send_keys("qwerty")
+driver.find_element(By.XPATH, "//input[@placeholder='Customer ID No.']").send_keys("zzz0425144491916")
+click_apply_button()
+time.sleep(1)
+click_customer_module()
+
+# Search using First name, Date of birth and Customer ID No.
+driver.find_element(By.XPATH, "//input[@placeholder='First Name']").send_keys("marwin")
+wait = WebDriverWait(driver, 10)
+date_of_birth = wait.until(
+    EC.element_to_be_clickable((By.XPATH, "//input[@placeholder='Date Of Birth']"))
+)
+date_of_birth.send_keys("10/17/2000")
+driver.find_element(By.XPATH, "//input[@placeholder='Customer ID No.']").send_keys("zzz0425144491916")
+click_apply_button()
+time.sleep(1)
+click_customer_module()
+
+# Search using Last name, SUKI Card No. and Customer ID No.
+driver.find_element(By.XPATH, "//input[@placeholder='Last Name']").send_keys("imperial")
+driver.find_element(By.XPATH, "//input[@placeholder='SUKI Card No.']").send_keys("qwerty")
+driver.find_element(By.XPATH, "//input[@placeholder='Customer ID No.']").send_keys("zzz0425144491916")
+click_apply_button()
+time.sleep(1)
+click_customer_module()
+
+# Search using First Name, SUKI Card No. and Customer ID No.
+driver.find_element(By.XPATH, "//input[@placeholder='First Name']").send_keys("marwin")
+driver.find_element(By.XPATH, "//input[@placeholder='SUKI Card No.']").send_keys("qwerty")
+driver.find_element(By.XPATH, "//input[@placeholder='Customer ID No.']").send_keys("zzz0425144491916")
+click_apply_button()
+time.sleep(1)
+click_customer_module()
+
+# Search using First name, Date of birth and SUKI Card No.
+driver.find_element(By.XPATH, "//input[@placeholder='First Name']").send_keys("marwin")
+wait = WebDriverWait(driver, 10)
+date_of_birth = wait.until(
+    EC.element_to_be_clickable((By.XPATH, "//input[@placeholder='Date Of Birth']"))
+)
+date_of_birth.send_keys("10/17/2000")
+driver.find_element(By.XPATH, "//input[@placeholder='SUKI Card No.']").send_keys("qwerty")
+click_apply_button()
+time.sleep(1)
+click_customer_module()
+
+# Search using First Name, Last name, Date of birth and SUKI Card No.
+driver.find_element(By.XPATH, "//input[@placeholder='First Name']").send_keys("marwin")
+driver.find_element(By.XPATH, "//input[@placeholder='Last Name']").send_keys("imperial")
+wait = WebDriverWait(driver, 10)
+date_of_birth = wait.until(
+    EC.element_to_be_clickable((By.XPATH, "//input[@placeholder='Date Of Birth']"))
+)
+date_of_birth.send_keys("10/17/2000")
+driver.find_element(By.XPATH, "//input[@placeholder='SUKI Card No.']").send_keys("qwerty")
+click_apply_button()
+time.sleep(1)
+click_customer_module()
+
+# Search using First Name, Last name, Date of birth and Customer ID No.
+driver.find_element(By.XPATH, "//input[@placeholder='First Name']").send_keys("marwin")
+driver.find_element(By.XPATH, "//input[@placeholder='Last Name']").send_keys("imperial")
+wait = WebDriverWait(driver, 10)
+date_of_birth = wait.until(
+    EC.element_to_be_clickable((By.XPATH, "//input[@placeholder='Date Of Birth']"))
+)
+date_of_birth.send_keys("10/17/2000")
+driver.find_element(By.XPATH, "//input[@placeholder='Customer ID No.']").send_keys("zzz0425144491916")
+click_apply_button()
+time.sleep(1)
+click_customer_module()
+
+# Search using Last name, Date of birth, SUKI Card No. and Customer ID No.
+driver.find_element(By.XPATH, "//input[@placeholder='Last Name']").send_keys("imperial")
+wait = WebDriverWait(driver, 10)
+date_of_birth = wait.until(
+    EC.element_to_be_clickable((By.XPATH, "//input[@placeholder='Date Of Birth']"))
+)
+date_of_birth.send_keys("10/17/2000")
+driver.find_element(By.XPATH, "//input[@placeholder='SUKI Card No.']").send_keys("qwerty")
+driver.find_element(By.XPATH, "//input[@placeholder='Customer ID No.']").send_keys("zzz0425144491916")
+click_apply_button()
+time.sleep(1)
+click_customer_module()
+
+# Search using First Name, Last name, SUKI Card No. and Customer ID No.
+driver.find_element(By.XPATH, "//input[@placeholder='First Name']").send_keys("marwin")
+driver.find_element(By.XPATH, "//input[@placeholder='Last Name']").send_keys("imperial")
+driver.find_element(By.XPATH, "//input[@placeholder='SUKI Card No.']").send_keys("qwerty")
+driver.find_element(By.XPATH, "//input[@placeholder='Customer ID No.']").send_keys("zzz0425144491916")
+click_apply_button()
+time.sleep(1)
+click_customer_module()
+
+# Search using First Name, Last name, Date of birth and Customer ID No.
+driver.find_element(By.XPATH, "//input[@placeholder='First Name']").send_keys("marwin")
+driver.find_element(By.XPATH, "//input[@placeholder='Last Name']").send_keys("imperial")
+wait = WebDriverWait(driver, 10)
+date_of_birth = wait.until(
+    EC.element_to_be_clickable((By.XPATH, "//input[@placeholder='Date Of Birth']"))
+)
+date_of_birth.send_keys("10/17/2000")
+
+driver.find_element(By.XPATH, "//input[@placeholder='Customer ID No.']").send_keys("zzz0425144491916")
 click_apply_button()
 time.sleep(1)
 click_customer_module()
