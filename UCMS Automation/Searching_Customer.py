@@ -225,4 +225,11 @@ click_apply_button()
 time.sleep(1)
 click_customer_module()
 
+driver.find_element(By.XPATH, "//input[@placeholder='First Name']").send_keys("marwin")
+driver.find_element(By.XPATH, "//input[@placeholder='Last Name']").send_keys("imperial")
+driver.find_element(By.XPATH, "//input[@placeholder='SUKI Card No.']").send_keys("qwerty")
+click_apply_button()
+time.sleep(1)
+click_customer_module()
+
 time.sleep(5)

@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="813f10cc-9d11-4fe1-9bab-ea3c478df7fa" name="Changes" comment="" />
+    <list default="true" id="813f10cc-9d11-4fe1-9bab-ea3c478df7fa" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UCMS Automation/Searching_Customer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../UCMS Automation/Searching_Customer.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +20,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Select_Branch.py" root0="SKIP_INSPECTION" />
   </component>
@@ -28,25 +34,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.ALL.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Login and select branch.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Login.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Precise_Searching.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Precise_Searching_Customer.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Search_Customer.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Searching_Customer.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Select_Branch.executor&quot;: &quot;Run&quot;,
-    &quot;Python.demoBrwoser.executor&quot;: &quot;Run&quot;,
-    &quot;Python.excelDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.explicitwaitDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.upload.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/mpimperial/PycharmProjects/UCMS Automation&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.ALL.executor": "Run",
+    "Python.Login and select branch.executor": "Run",
+    "Python.Login.executor": "Run",
+    "Python.Precise_Searching.executor": "Run",
+    "Python.Precise_Searching_Customer.executor": "Run",
+    "Python.Search_Customer.executor": "Run",
+    "Python.Searching_Customer.executor": "Run",
+    "Python.Select_Branch.executor": "Run",
+    "Python.demoBrwoser.executor": "Run",
+    "Python.excelDemo.executor": "Run",
+    "Python.explicitwaitDemo.executor": "Run",
+    "Python.upload.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "testing",
+    "last_opened_file_path": "C:/Users/mpimperial/PycharmProjects/UCMS Automation",
+    "settings.editor.selected.configurable": "configurable.group.tools"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\mpimperial\PycharmProjects\UCMS Automation" />
